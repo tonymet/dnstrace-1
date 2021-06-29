@@ -16,3 +16,5 @@ require (
 	go.uber.org/ratelimit v0.0.0-20161026005643-d15fa2e2a63d
 	golang.org/x/sys v0.0.0-20170213225739-e24f485414ae
 )
+
+replace github.com/codahale/hdrhistogram v0.0.0 => github.com/HdrHistogram/hdrhistogram-go v1.1.0
