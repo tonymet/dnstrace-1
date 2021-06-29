@@ -19,7 +19,7 @@ import (
 	"os/signal"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/codahale/hdrhistogram"
+	"github.com/HdrHistogram/hdrhistogram-go"
 	"github.com/fatih/color"
 	"github.com/miekg/dns"
 	"github.com/olekukonko/tablewriter"
